@@ -27,13 +27,12 @@ A simple React application that fetches and displays random cat facts from an ex
 
 cat-facts-app/
 ├── src/
-│   ├── main.jsx      # Main React component
-│   ├── index.css      # Component styles
-│   └── App.jsx               # Root application file
+│   ├── main.jsx        # Main React component
+│   ├── index.css       # Component styles
+│   └── App.jsx         # Root application file
 ├── public/
 └── README.md
 
----
 
 ## 📦 Installation
 
@@ -59,7 +58,7 @@ Start the development server:
 ```bash
 npm start
 ```
-Open your browser and go to: http://localhost:3000
+Open your browser and go to: http://localhost:3000 
 Click the "Get Cat Fact" button to fetch and display a new cat fact.
 
 License
