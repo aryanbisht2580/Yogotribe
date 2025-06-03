@@ -1,12 +1,66 @@
-# React + Vite
+# 🐱 Random Cat Facts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays random cat facts from an external API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Clean, minimal user interface  
+- Fetches random cat facts from the [CatFact.ninja API](https://catfact.ninja/fact)  
+- Loading states and error handling  
+- Responsive design for mobile devices  
+- Simple hover effects and animations  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies Used
+
+- **React** (with Hooks)  
+- **JavaScript ES6+** (async/await)  
+- **CSS3**  
+- **CatFact.ninja API**  
+
+---
+
+## 📁 Project Structure
+
+cat-facts-app/
+├── src/
+│   ├── main.jsx      # Main React component
+│   ├── index.css      # Component styles
+│   └── App.jsx               # Root application file
+├── public/
+└── README.md
+
+---
+
+## 📦 Installation
+
+1. Clone or download this repository  
+2. Make sure you have [Node.js](https://nodejs.org/) installed  
+3. Create a new React app:
+   ```bash
+   npx create-react-app cat-facts-app
+   cd cat-facts-app
+   
+4. Replace the default files with the provided component files
+5. Install dependencies:
+   npm install
+
+▶️ Usage
+
+
+
+## ▶️ Usage
+
+Start the development server:
+
+```bash
+npm start
+```
+Open your browser and go to: http://localhost:3000
+Click the "Get Cat Fact" button to fetch and display a new cat fact.
+
+License
+This project is open source and available under the MIT License.
