@@ -47,9 +47,6 @@ cat-facts-app/
 5. Install dependencies:
    npm install
 
-▶️ Usage
-
-
 
 ## ▶️ Usage
 
@@ -58,7 +55,7 @@ Start the development server:
 ```bash
 npm start
 ```
-Open your browser and go to: http://localhost:3000 
+Open your browser and go to: http://localhost:3000␣␣  
 Click the "Get Cat Fact" button to fetch and display a new cat fact.
 
 License
