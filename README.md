@@ -58,5 +58,8 @@ npm start
 Open your browser and go to: http://localhost:3000  
 Click the "Get Cat Fact" button to fetch and display a new cat fact.
 
-License
-This project is open source and available under the MIT License.
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
