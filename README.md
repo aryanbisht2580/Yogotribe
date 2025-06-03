@@ -14,6 +14,14 @@ A simple React application that fetches and displays random cat facts from an ex
 
 ---
 
+
+## 📸 Screenshot
+
+<img width="1168" alt="image" src="https://github.com/user-attachments/assets/ce0251be-25bb-49c1-80ce-d82ff0e38836" />
+
+
+---
+
 ## 🛠 Technologies Used
 
 - **React** (with Hooks)  
@@ -22,16 +30,6 @@ A simple React application that fetches and displays random cat facts from an ex
 - **CatFact.ninja API**  
 
 ---
-
-## 📁 Project Structure
-
-cat-facts-app/
-├── src/
-│   ├── main.jsx        # Main React component
-│   ├── index.css       # Component styles
-│   └── App.jsx         # Root application file
-├── public/
-└── README.md
 
 
 ## 📦 Installation
@@ -47,6 +45,7 @@ cat-facts-app/
 5. Install dependencies:
    npm install
 
+---
 
 ## ▶️ Usage
 
@@ -57,6 +56,8 @@ npm start
 ```
 Open your browser and go to: http://localhost:3000  
 Click the "Get Cat Fact" button to fetch and display a new cat fact.
+
+---
 
 
 ## 📄 License
